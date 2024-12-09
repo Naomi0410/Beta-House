@@ -1,0 +1,70 @@
+* {
+  font-family: "Outfit Variable", sans-serif;
+  text-decoration: none !important;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-weight: 400;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --bg-zinc-800: rgba(24, 26, 32, 1);
+  --bg-zinc-600: rgba(24, 26, 32, 0.82);
+  --bg-gray-100: rgba(211, 211, 211, 0.7);
+  --bg-gray-200: rgba(113, 111, 111, 1);
+  --bg-green-100: rgba(75, 165, 134, 1);
+  --bg-green-200: rgba(61, 153, 112, 1);
+  --bg-white-100: rgba(254, 254, 255, 1);
+  --bg-white-200: rgba(245, 245, 245, 1);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+main {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit !important;
+}
+
+.logo {
+  background-color: var(--bg-green-100);
+  color: var(--bg-white-100);
+  border-radius: 5rem;
+  padding: 5px;
+  font-size: 25px;
+}
+button {
+  padding: 0.8em 1.2em !important;
+  font-family: inherit;
+  transition: border-color 0.25s !important;
+  border: none !important;
+}
+
+button:hover {
+  filter: brightness(80%) !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.btns {
+  background-color: var(--bg-green-200) !important;
+}
+.navbar {
+  background-color: transparent !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}

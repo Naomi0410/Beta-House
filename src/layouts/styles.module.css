@@ -1,0 +1,11 @@
+.authBg {
+    width: 100%;
+}
+
+
+@media (min-width: 992px) {
+
+    .authBg{
+        width: 50% !important;
+    }
+}
