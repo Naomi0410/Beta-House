@@ -1,14 +1,15 @@
 p {
-    color: var(--bg-zinc-600) !important;
+  color: var(--bg-zinc-600) !important;
 }
 
 .form {
-    width: 100%;
+  width: 100%;
 }
 
 
+
 @media (min-width: 768px) {
-    .form {
-        width: 350px !important;
-    }
+  .form {
+    width: 350px !important;
+  }
 }

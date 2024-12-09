@@ -5,13 +5,20 @@ import {
   RouterProvider,
   createBrowserRouter,
 } from "react-router-dom";
-import { Login, ResetPassword, Register, ForgotPassword, Home } from "@/pages";
+import {
+  Login,
+  ResetPassword,
+  Register,
+  ForgotPassword,
+  Home,
+  Properties,
+} from "@/pages";
 import { ProtectedUser, PublicRoutes } from "./ProtectedRoutes";
 import { useStore } from "@/hooks";
 import { userService } from "@/api";
 import { toast } from "react-toastify";
-import { RootLayout } from "@/layouts";
 
+const RootLayout = lazy(() => import("@/layouts/RootLayout"));
 const AuthLayout = lazy(() => import("@/layouts/AuthLayout"));
 const PageNotFound = lazy(() => import("@/components/PageNotFound"));
 
@@ -31,6 +38,14 @@ const AppRoutes = () => {
         {
           index: true,
           element: <Home />,
+        },
+        {
+          path: "/properties",
+          element: (
+            <Suspense fallback={<Loading />}>
+              <Properties />
+            </Suspense>
+          ),
         },
       ],
     },
