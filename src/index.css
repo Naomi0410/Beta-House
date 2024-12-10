@@ -88,9 +88,11 @@ button:hover {
 .content {
   position: relative;
   z-index: 1;
-  padding-top: 60px;
+  padding-top: 10rem;
   color: white;
+  max-width: 600px;
 }
 .dropdown-toggle {
   color: white !important;
 }
+

@@ -6,5 +6,6 @@ import Loading from "./Loading";
 import PageNotFound from "./PageNotFound";
 import FormInputs from "./FormInputs";
 import Nav from "./Nav";
+import SearchBar from "./SearchBar";
 
-export { Headings, Texts, ActionButton, Error, Loading, PageNotFound, FormInputs, Nav };
+export { Headings, Texts, ActionButton, Error, Loading, PageNotFound, FormInputs, Nav, SearchBar };
