@@ -7,5 +7,17 @@ import PageNotFound from "./PageNotFound";
 import FormInputs from "./FormInputs";
 import Nav from "./Nav";
 import SearchBar from "./SearchBar";
+import PropertyCard from "./PropertyCard";
 
-export { Headings, Texts, ActionButton, Error, Loading, PageNotFound, FormInputs, Nav, SearchBar };
+export {
+  Headings,
+  Texts,
+  ActionButton,
+  Error,
+  Loading,
+  PageNotFound,
+  FormInputs,
+  Nav,
+  SearchBar,
+  PropertyCard
+};

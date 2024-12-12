@@ -96,3 +96,20 @@ button:hover {
   color: white !important;
 }
 
+
+.propertyCard{
+ 
+  
+}
+
+@media (min-width: 768px) {
+  .propertyCard {
+    width: 230px !important;
+  }
+}
+
+@media (min-width: 998px) {
+  .propertyCard {
+    width: 350px !important;
+  }
+}
